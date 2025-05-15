@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+    <script>
+    let Nome = prompt("Digite o seu nome!");
+    let Nota = Number(prompt("Olá " + Nome + ", digite a sua nota de trabalho:"));
+
+    if (Nota === 10) {
+        alert("Parabéns pelo 10! Você foi aprovado(a)!");
+    } else if (Nota >= 7) {
+        alert("Com a nota " + Nota + ", você foi aprovado(a)!");
+    } else if (Nota >= 4) {
+        alert("Com a nota " + Nota + ", você está em recuperação!");
+    } else {
+        alert("Com a nota " + Nota + ", você está reprovado(a)!");
+    }
+    </script>
+</body>
+</html>
